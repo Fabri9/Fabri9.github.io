@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Libre franklin", sans-serif;
+    
+}
+
+.header {
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+h1 {
+    color: hsl(0, 0%, 59%);
+    margin-top: 5vh;
+}
+
+span {
+    font-weight: 800;
+    color: hsl(209, 33%, 12%);
+}
+
+p {
+    margin-top: 1.5vh;
+    font-weight: lighter;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3.5vh;
+}
+
+.input {
+    width: 285px;
+    height: 30px;
+    margin: 5px 0px 5px 0px;
+    border-radius: 50px;
+    border: 1px solid hsl(223, 87%, 63%);
+    outline: none;
+}
+
+::placeholder {
+    color: hsl(223, 87%, 63%);
+}
+
+::ms-input-placeholder {
+    color: hsl(223, 87%, 63%);
+}
+
+.error {
+    color: red;
+    margin-top: 1px;
+    font-size: 12px;
+    display: none;
+    margin-left: 8px;
+}
+
+.input-btn {
+    margin-top: 8px;
+    width: 285px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.input-btn:hover {
+    color: hsl(223, 87%, 63%);
+    background-color: white;
+    border: 1px solid
+}
+
+.illustration {
+    margin-top: 8vh;
+    height: 175px;
+    width: 320px;
+}
+
+.footer {
+    margin-top: 25px;
+    bottom: 0;
+    width: 100%;
+    font-size: 10px;
+    color: hsl(0, 0%, 59%);
+    height: 13vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.fa-facebook-f, 
+.fa-instagram, 
+.fa-twitter {
+    color: hsl(223, 87%, 63%);
+    width: 20px;
+    height: 20px;
+    border: 1px solid hsl(223, 100%, 88%);
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px !important;
+    border-radius: 26px;
+    padding: 3px;
+    margin-right: 5px;
+    font-size: 12px;
+} 
+
+.fa-facebook-f:hover, 
+.fa-twitter:hover, 
+.fa-instagram:hover {
+    color: white;
+    background-color: hsl(223, 87%, 63%);
+}
+
+@media only screen and (min-width: 800px) {
+    .header {
+        height: 10vh;
+    }
+
+    .img-header {
+        width: 80px;
+    }
+
+    h2 {
+        font-size: 50px;
+        font-weight: lighter;
+    }
+
+    p {
+        font-size: 25px;
+    }
+
+    .container {
+        flex-direction: row;
+    }
+
+    .error {
+        font-size: 14px;
+    }
+
+    .input-btn {
+        margin-top: 4px;
+        margin-left: 15px;
+        height: 35px;
+        width: 195px;
+        font-size: 16px;
+    }
+
+    .footer {
+        font-size: 12px;
+    }
+
+    .fa-facebook-f, 
+    .fa-instagram, 
+    .fa-twitter {
+        font-size: 16px;
+    }
+
+    .illustration {
+        margin-top: 5vh;
+        width: 680px;
+        height: 380px;
+    }
+}
+
+
+
+
+
